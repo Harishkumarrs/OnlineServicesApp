@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterAccount">
+    <TextView
+        android:id="@+id/etCreateac"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Create Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/divider3"
+        android:layout_width="293dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/etPhoneno"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:text="EmailId"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/divider4"
+        android:layout_width="296dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/etPhonenumber"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="PhoneNumber"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/divider5"
+        android:layout_width="296dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/etpass"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/divider6"
+        android:layout_width="296dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/etConfirmpass"
+        android:layout_width="213dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Confirm Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/divider7"
+        android:layout_width="296dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btsignin"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="20dp"
+        android:text="Sign In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</LinearLayout>
