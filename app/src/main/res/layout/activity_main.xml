@@ -1,75 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:textDirection="firstStrongLtr"
     android:background="@color/white">
-
-    <TextView
-        android:id="@+id/etonline"
-        android:layout_width="249dp"
-        android:layout_height="115dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="45dp"
-        android:gravity="center"
-        android:text="Online Service Booking"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="180dp"
-        android:layout_marginLeft="80dp"
-        android:background="@drawable/landing" />
-
-    <TextView
-        android:id="@+id/etfast"
-        android:layout_width="249dp"
-        android:layout_height="102dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:text="Fast Service and cost at lower price"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="247dp"
-        android:layout_height="75dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="10dp"
-        android:background="#FFFFFF"
-        android:fontFamily="sans-serif-medium"
-        android:text="Create Account"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#FFFFFF"
-        android:textColorHighlight="@color/white"
-        tools:ignore="TextContrastCheck" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
         <TextView
-            android:id="@+id/etAlready"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="45dp"
-            android:layout_marginTop="50dp"
-            android:text="Already have an account?"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:id="@+id/etonline"
+            android:layout_width="249dp"
+            android:layout_height="115dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:text="Online Service Booking"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/landing" />
+
         <TextView
-            android:id="@+id/btSignin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="50dp"
-            android:text="Signin"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:id="@+id/etfast"
+            android:layout_width="249dp"
+            android:layout_height="102dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Fast Service and cost at lower price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="247dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:text="Create Account"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="@color/white"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/etAlready"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="50dp"
+                android:text="Already have an account?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/btSignin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:text="Signin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>
