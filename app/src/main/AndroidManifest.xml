@@ -13,6 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ServicesApp">
+        <activity
+            android:name=".ServicesPage"
+            android:exported="false" />
+        <activity
+            android:name=".clientLandingPage"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -24,7 +30,6 @@
         <activity
             android:name=".GetUserLocation"
             android:exported="false" />
-
         <activity
             android:name=".LoginPage"
             android:exported="false" />

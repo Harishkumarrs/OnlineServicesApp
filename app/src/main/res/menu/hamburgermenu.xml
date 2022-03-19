@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/homestick"
+        android:title="Home"/>
+    <item
+        android:id="@+id/menu_bookings"
+        android:icon="@drawable/bookingsticker"
+        android:title="Bookings"/>
+    <item
+        android:id="@+id/menu_contactus"
+        android:icon="@drawable/contactsticker"
+        android:title="Contactus"/>
+    <item
+        android:id="@+id/menu_Aboutus"
+        android:icon="@drawable/aboutussticker"
+        android:title="Aboutus"/>
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/logoutsticker"
+        android:title="Logout"/>
+</menu>

@@ -27,6 +27,13 @@
        android:text="Get location from map"
        android:id="@+id/GetAddFromMap"/>
 
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Next"
+       android:id="@+id/MapNext"
+       android:layout_gravity="center"/>
+
 
 
 </LinearLayout>
