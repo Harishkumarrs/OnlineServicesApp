@@ -51,6 +51,7 @@ public class GetUserLocation extends AppCompatActivity implements OnMapReadyCall
     EditText textBox;
     Button GetLocButton;
     LocationManager locationManager;
+    Button LocNextPage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,12 +60,20 @@ public class GetUserLocation extends AppCompatActivity implements OnMapReadyCall
         mMapView = (MapView) findViewById(R.id.map_view);
         textBox = (EditText) findViewById(R.id.LocationEditText);
         GetLocButton = (Button) findViewById(R.id.GetAddFromMap);
+        LocNextPage = (Button) findViewById(R.id.MapNext);
         client = LocationServices.getFusedLocationProviderClient(this);
         initGoogleMap(savedInstanceState);
         GetLocButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 GetLocation();
+            }
+        });
+        LocNextPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(),clientLandingPage.class);
+                startActivity(i);
             }
         });
     }
